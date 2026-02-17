@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What is the purpose of the ICC Code of Conduct?",
+    "gold_answer": "The Code of Conduct is adopted to maintain the public image, popularity and integrity of cricket by providing an effective means to deter improper conduct and a robust disciplinary procedure.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 3
+  },
+  {
+    "question": "What does Article 2.3 of the Code of Conduct cover?",
+    "gold_answer": "Article 2.3 covers the use of an audible obscenity during an International Match, including words commonly known to be offensive, obscene or profane that can be heard by spectators or viewing public.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 6
+  },
+  {
+    "question": "What are the offence levels defined in the Code of Conduct?",
+    "gold_answer": "The Code of Conduct defines four levels of offence: Level 1 for conduct of a minor nature, up to Level 4 for conduct of an extremely serious nature.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 5
+  },
+  {
+    "question": "What does Article 2.5 prohibit regarding a dismissed batter?",
+    "gold_answer": "Article 2.5 prohibits using language, actions or gestures which disparage or could provoke an aggressive reaction from a batter upon dismissal, including excessive celebration, verbal abuse, and pointing towards the pavilion.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 6
+  },
+  {
+    "question": "What is the sanction for changing the condition of the ball under Article 2.14?",
+    "gold_answer": "Changing the condition of the ball in breach of clause 41.3 of the ICC Playing Conditions is a Level 3 offence.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 10
+  },
+  {
+    "question": "Who can report an alleged offence under the Code of Conduct?",
+    "gold_answer": "An offence can be reported by an Umpire who officiated in the match, the CEO of either National Cricket Federation, the ICC's Chief Executive Officer, or (for Level 4 offences) the Match Referee.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 13
+  },
+  {
+    "question": "What does Article 2.12 cover regarding physical contact?",
+    "gold_answer": "Article 2.12 prohibits inappropriate physical contact with a Player, Player Support Personnel, Umpire, Match Referee or any other person during an International Match, including deliberately walking or running into or shouldering another Player or Umpire.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 9
+  },
+  {
+    "question": "Are social media posts considered public under the Code of Conduct?",
+    "gold_answer": "Yes, any posting by a Player or Player Support Personnel on social media platforms including Facebook, Instagram, Twitter, YouTube and LinkedIn is deemed to be public for the purposes of Article 2.7.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 7
+  },
+  {
+    "question": "What is the reporting deadline for Level 1 and 2 on-field offences reported by an Umpire?",
+    "gold_answer": "For Level 1 and 2 on-field offences reported by an Umpire, the reporting deadline is as soon as possible after the conclusion of the day's play of the relevant International Match.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 14
+  },
+  {
+    "question": "What language must hearings before the Match Referee be conducted in?",
+    "gold_answer": "The hearing before the Match Referee shall be in English, and certified English translations shall be submitted of any non-English documents.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 18
+  },
+  {
+    "question": "What does Article 2.9 cover regarding throwing objects?",
+    "gold_answer": "Article 2.9 covers throwing a ball or any other item of cricket equipment such as a water bottle at or near a Player, Player Support Personnel, Umpire, Match Referee or any other person in an inappropriate or dangerous manner during an International Match.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 8
+  },
+  {
+    "question": "What does Article 2.17 say about threats of assault?",
+    "gold_answer": "Article 2.17 prohibits threats of assault on another Player, Player Support Personnel, Umpire, Match Referee or any other person during an International Match. It is a Level 3 offence for threats against anyone other than Umpires or Match Referees, and a Level 4 offence for threats against Umpires and Match Referees.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 11
+  },
+  {
+    "question": "What is the definition of the Spirit of Cricket according to the Code?",
+    "gold_answer": "Cricket owes much of its appeal and enjoyment to the fact that it should be played not only according to the Laws but also within the Spirit of Cricket. The major responsibility for ensuring fair play rests with the captains but extends to all players, umpires and everyone involved.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 4
+  },
+  {
+    "question": "What options does a Player have after receiving a Notice of Charge?",
+    "gold_answer": "The Player may admit the offence and accept the proposed sanction, admit the offence but dispute the proposed sanction (proceeding to hearing on sanction only), or deny the offence and proceed to a full hearing.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 16
+  },
+  {
+    "question": "How long does the Match Referee have to issue a written decision after a hearing?",
+    "gold_answer": "Within five days after the conclusion of the hearing, the Match Referee shall issue his or her written decision with reasons.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 19
+  },
+  {
+    "question": "What types of unfair play does Article 2.10 cover?",
+    "gold_answer": "Article 2.10 covers unfair play under clause 41 of the ICC Playing Conditions, including deliberate distraction of striker, bowling dangerous short pitched deliveries, bowling deliberate no balls, time wasting, deliberate damage to the pitch, and batter stealing a run.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 8
+  },
+  {
+    "question": "Where is the ICC headquartered according to the Code of Conduct document?",
+    "gold_answer": "The ICC is headquartered in Dubai, United Arab Emirates, at PO Box 500 070.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 1
+  },
+  {
+    "question": "When did this Code of Conduct become effective?",
+    "gold_answer": "The Code of Conduct became effective as from 16 June 2023.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 1
+  },
+  {
+    "question": "What is Article 2.21 about?",
+    "gold_answer": "Article 2.21 covers conduct that brings the game into disrepute, including public acts of misconduct, unruly public behaviour, and inappropriate comments detrimental to the interests of the game.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 12
+  },
+  {
+    "question": "Who is held responsible for offences under Article 2.11 regarding match manipulation?",
+    "gold_answer": "The Team Captain of any team guilty of such conduct shall be held responsible and subject to sanction for any offence found to have been committed under Article 2.11.",
+    "gold_doc": "cricket-rules.pdf",
+    "gold_page": 9
+  }
+]
