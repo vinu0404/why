@@ -53,7 +53,11 @@ def run_ingestion(chunk_mode="structural"):
     conn.close()
     return all_chunks
 
+CHUNK_CACHE = {}
+
 def build_retriever(chunk_mode="structural"):
+    global CHUNK_CACHE
+
     conn = init_db(DB_PATH)
     chunks = get_all_chunks(conn, chunk_mode=chunk_mode)
     conn.close()
@@ -61,6 +65,9 @@ def build_retriever(chunk_mode="structural"):
     if not chunks:
         print(f"no chunks for mode '{chunk_mode}' – run ingestion first")
         return None
+
+    # cache chunks in memory so answer_question never hits the DB
+    CHUNK_CACHE = {c["chunk_id"]: c for c in chunks}
 
     retriever = HybridRetriever()
     retriever.build(chunks)
@@ -72,11 +79,12 @@ def answer_question(question, retriever, chunk_mode="structural",
     conn = init_db(DB_PATH)
 
     results = retriever.search(question, top_k=top_k, method=retrieval_method)
-    all_chunks = get_all_chunks(conn, chunk_mode=chunk_mode)
-    lookup = {c["chunk_id"]: c for c in all_chunks}
 
-    context_chunks = [lookup[r["chunk_id"]] for r in results
-                      if r["chunk_id"] in lookup]
+    # use in-memory cache instead of loading all chunks from DB
+    context_chunks = [
+        CHUNK_CACHE[r["chunk_id"]]
+        for r in results if r["chunk_id"] in CHUNK_CACHE
+    ]
 
     answer = generate_answer(question, context_chunks)
     grounding = compute_grounding(answer, conn)

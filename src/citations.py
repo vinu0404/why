@@ -1,6 +1,8 @@
 import re
 from src.db import get_page_text, get_all_chunks
 
+PAGE_CACHE = {}
+
 def extract_citations(answer_text):
     """
     Pull citations out of the generated answer.
@@ -25,7 +27,11 @@ def validate_citation(citation, conn):
     falls inside a stored chunk and that the page text at those offsets
     contains real content.
     """
-    page_text = get_page_text(conn, citation["doc_id"], citation["page"])
+    key = (citation["doc_id"], citation["page"])
+    if key not in PAGE_CACHE:
+        PAGE_CACHE[key] = get_page_text(conn, citation["doc_id"], citation["page"])
+    page_text = PAGE_CACHE[key]
+
     if page_text is not None:
         cs, ce = citation["char_start"], citation["char_end"]
         if 0 <= cs < ce <= len(page_text):
